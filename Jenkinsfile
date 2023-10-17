@@ -7,7 +7,7 @@ pipeline {
 
   stages {
 
-    stage('Code Quality') {
+    stage('Code Quality'){
       when {
         allOf {
           branch 'main'
@@ -19,7 +19,7 @@ pipeline {
       }
     }
 
-    stage('Release') {
+    stage('Release'){
       when {
         expression { env.TAG_NAME ==~ ".*" }
       }
