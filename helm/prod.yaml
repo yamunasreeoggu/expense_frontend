@@ -10,3 +10,4 @@ service:
 ingress:
   enabled: true
   port: 80
+  hosts: frontend-dev.yamunadevops.online
