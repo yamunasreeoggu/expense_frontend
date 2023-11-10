@@ -1,5 +1,5 @@
 appName: frontend
-appVersion: 2.0.2
+appVersion: 2.0.3
 replicas: 2
 
 service:
